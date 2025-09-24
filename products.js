@@ -8,7 +8,7 @@ const show_Hydraulic_major_seals = () => {
             <h3>Hydraulic major seal</h3>
             <p class="price">Make:${rings.make}</p>
             <p class="price">Size:${rings.size}</p>
-            <button>Buy Now</button>
+            <button onclick="add_to_cart()">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -32,7 +32,7 @@ const show_High_Quality_Batteries = () => {
             <h3>High Quality Batteries</h3>
             <p class="price">Make:${Batteries.make}</p>
             <p class="price">Size:${Batteries.size}</p>
-            <button>Buy Now</button>
+            <button onclick="add_to_cart()">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -56,7 +56,7 @@ const show_Quality_Grease = () => {
             <h3>Quality Grease</h3>
             <p class="price">Make:${grease.make}</p>
             <p class="price">Size:${grease.size}</p>
-            <button>Buy Now</button>
+            <button onclick="add_to_cart()">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -77,7 +77,7 @@ const show_under_carriage = () => {
             <h3>under_carriage</h3>
             <p class="price">Make:${under_carriage.make}</p>
             <p class="price">Size:${under_carriage.size}</p>
-            <button>Buy Now</button>
+            <button onclick="add_to_cart()">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -102,7 +102,7 @@ const show_track_pin = () => {
             <h3>Track Pin</h3>
             <p class="price">Make:${track_pin.make}</p>
             <p class="price">Size:${track_pin.size}</p>
-            <button>Buy Now</button>
+            <button onclick="add_to_cart()">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -125,7 +125,7 @@ const show_O_ring_boxes = () => {
             <h3>Track Pin</h3>
             <p class="price">Make:${O_ring_box.make}</p>
             <p class="price">Size:${O_ring_box.size}</p>
-            <button>Buy Now</button>
+            <button onclick="add_to_cart()">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -147,7 +147,7 @@ const show_Excavator_bucket = () => {
             <h3>Excavator bucket pin</h3>
             <p class="price">Make:${Excavator_bucket.make}</p>
             <p class="price">Size:${Excavator_bucket.size}</p>
-            <button>Buy Now</button>
+            <button onclick="add_to_cart()">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -168,7 +168,7 @@ const show_Pump_Seals = () => {
             <h3>Pump Seals</h3>
             <p class="price">Make:${Pump_Seals.make}</p>
             <p class="price">Size:${Pump_Seals.size}</p>
-            <button>Buy Now</button>
+            <button onclick="add_to_cart()">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -189,7 +189,7 @@ const show_Filters = () => {
             <h3>Filters</h3>
             <p class="price">Make:${Filters.make}</p>
             <p class="price">Size:${Filters.size}</p>
-            <button>Buy Now</button>
+            <button onclick="add_to_cart()">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -209,7 +209,7 @@ const show_Bushing = () => {
             <h3>Bushing</h3>
             <p class="price">Make:${Bushing.make}</p>
             <p class="price">Size:${Bushing.size}</p>
-            <button>Buy Now</button>
+            <button onclick="add_to_cart()">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -217,3 +217,11 @@ const show_Bushing = () => {
 
 
 show_Bushing();
+
+
+
+/* ==================================================*/
+
+const add_to_cart = () =>{
+  alert("You will be redirected to whatsapp for further checkout.");
+}
