@@ -5,10 +5,7 @@
         /* Base styles for the body */
         body {
             font-family: 'Inter', sans-serif;
-            overflow-X: hidden;
-            /* background-color: #1a202c; */
-            /* color: #e2e8f0; */
-            /* padding: 1rem; */
+            overflow-x: hidden;
         }
 
         /* Responsive padding for larger screens */
@@ -214,6 +211,7 @@ header{
         /* Section styling */
         .category-section {
             margin-bottom: 3rem;
+            overflow-x: hidden;
         }
 
         .category-header {
