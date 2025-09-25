@@ -1,14 +1,15 @@
 const Hydraulic_major_seals = document.getElementById("Hydraulic_major_seals");
 
 const show_Hydraulic_major_seals = () => {
-    Hydraulic_major_seals.innerHTML = Hydraulic_major_seals_datas.map((rings)=>{
+    Hydraulic_major_seals.innerHTML = Hydraulic_major_seals_datas.map((Hydraulic_major_seals)=>{
+      const{name, id, image, make, size,} = Hydraulic_major_seals;
       return `
-        <div class="product-card">
-            <img src="${rings.image}" alt="${rings.name}">
-            <h3>Hydraulic major seal</h3>
-            <p class="price">Make:${rings.make}</p>
-            <p class="price">Size:${rings.size}</p>
-            <button onclick="add_to_cart()">Buy Now</button>
+        <div id=product-id-${id} class="product-card">
+            <img src="${image}" alt="${name}">
+            <h3>${name}</h3>
+            <p class="price">Make:${make}</p>
+            <p class="price">Size:${size}</p>
+            <button onclick="add_to_cart(${id})">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -26,13 +27,14 @@ const High_Quality_Batteries = document.getElementById("High_Quality_Batteries")
 
 const show_High_Quality_Batteries = () => {
     High_Quality_Batteries.innerHTML = High_Quality_Batteries_datas.map((Batteries)=>{
+      const{name, id, image, make, size,} = Batteries;
       return `
-        <div class="product-card">
-            <img src="${Batteries.image}" alt="${Batteries.name}">
-            <h3>High Quality Batteries</h3>
-            <p class="price">Make:${Batteries.make}</p>
-            <p class="price">Size:${Batteries.size}</p>
-            <button onclick="add_to_cart()">Buy Now</button>
+        <div id=product-id-${id} class="product-card">
+            <img src="${image}" alt="${name}">
+            <h3>${name}</h3>
+            <p class="price">Make:${make}</p>
+            <p class="price">Size:${size}</p>
+            <button onclick="add_to_cart(${id})">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -50,13 +52,14 @@ const Quality_Grease = document.getElementById("Quality_Grease");
 
 const show_Quality_Grease = () => {
     Quality_Grease.innerHTML = Quality_Grease_datas.map((grease)=>{
+      const{name, id, image, make, size,} = grease;
       return `
-        <div class="product-card">
-            <img src="${grease.image}" alt="${grease.name}">
-            <h3>Quality Grease</h3>
-            <p class="price">Make:${grease.make}</p>
-            <p class="price">Size:${grease.size}</p>
-            <button onclick="add_to_cart()">Buy Now</button>
+        <div id=product-id-${id} class="product-card">
+            <img src="${image}" alt="${name}">
+            <h3>${name}</h3>
+            <p class="price">Make:${make}</p>
+            <p class="price">Size:${size}</p>
+            <button onclick="add_to_cart(${id})">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -71,13 +74,14 @@ const under_carriage = document.getElementById("under_carriage");
 
 const show_under_carriage = () => {
     under_carriage.innerHTML = under_carriage_datas.map((under_carriage)=>{
+      const{name, id, image, make, size,} = under_carriage;
       return `
-        <div class="product-card">
-            <img src="${under_carriage.image}" alt="${under_carriage.name}">
-            <h3>under_carriage</h3>
-            <p class="price">Make:${under_carriage.make}</p>
-            <p class="price">Size:${under_carriage.size}</p>
-            <button onclick="add_to_cart()">Buy Now</button>
+        <div id=product-id-${id} class="product-card">
+            <img src="${image}" alt="${name}">
+            <h3>${name}</h3>
+            <p class="price">Make:${make}</p>
+            <p class="price">Size:${size}</p>
+            <button onclick="add_to_cart(${id})">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -96,13 +100,14 @@ const track_pin = document.getElementById("track_pin");
 
 const show_track_pin = () => {
     track_pin.innerHTML = track_pin_datas.map((track_pin)=>{
+      const{name, id, image, make, size,} = track_pin;
       return `
-        <div class="product-card">
-            <img src="${track_pin.image}" alt="${track_pin.name}">
-            <h3>Track Pin</h3>
-            <p class="price">Make:${track_pin.make}</p>
-            <p class="price">Size:${track_pin.size}</p>
-            <button onclick="add_to_cart()">Buy Now</button>
+        <div id=product-id-${id} class="product-card">
+            <img src="${image}" alt="${name}">
+            <h3>${name}</h3>
+            <p class="price">Make:${make}</p>
+            <p class="price">Size:${size}</p>
+            <button onclick="add_to_cart(${id})">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -119,13 +124,14 @@ const O_ring_boxes = document.getElementById("O_ring_boxes");
 
 const show_O_ring_boxes = () => {
     O_ring_boxes.innerHTML = O_ring_box_datas.map((O_ring_box)=>{
+      const{name, id, image, make, size,} = O_ring_box;
       return `
-        <div class="product-card">
-            <img src="${O_ring_box.image}" alt="${O_ring_box.name}">
-            <h3>Track Pin</h3>
-            <p class="price">Make:${O_ring_box.make}</p>
-            <p class="price">Size:${O_ring_box.size}</p>
-            <button onclick="add_to_cart()">Buy Now</button>
+        <div id=product-id-${id} class="product-card">
+            <img src="${image}" alt="${name}">
+            <h3>${name}</h3>
+            <p class="price">Make:${make}</p>
+            <p class="price">Size:${size}</p>
+            <button onclick="add_to_cart(${id})">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -135,26 +141,49 @@ const show_O_ring_boxes = () => {
 show_O_ring_boxes();
 
 
-/*     =====================          O_ring_boxes           =============================*/
+/*     =====================         Excavator_bucket_ PIN           =============================*/
 
 const Excavator_bucket_pin = document.getElementById("Excavator_bucket_pin");
 
-const show_Excavator_bucket = () => {
+const show_Excavator_bucket_pin = () => {
     Excavator_bucket_pin.innerHTML = Excavator_bucket_pin_datas.map((Excavator_bucket)=>{
+      const{name, id, image, make, size,} = Excavator_bucket;
       return `
-        <div class="product-card">
-            <img src="${Excavator_bucket.image}" alt="${Excavator_bucket.name}">
-            <h3>Excavator bucket pin</h3>
-            <p class="price">Make:${Excavator_bucket.make}</p>
-            <p class="price">Size:${Excavator_bucket.size}</p>
-            <button onclick="add_to_cart()">Buy Now</button>
+        <div id=product-id-${id} class="product-card">
+            <img src="${image}" alt="${name}">
+            <h3>${name}</h3>
+            <p class="price">Make:${make}</p>
+            <p class="price">Size:${size}</p>
+            <button onclick="add_to_cart(${id})">Buy Now</button>
         </div>
       `;
     }).join("");
 };
 
 
-show_Excavator_bucket();
+show_Excavator_bucket_pin();
+
+/*     =====================         Excavator_bucket_ PIN           =============================*/
+
+const Excavator_bucket_cylinder = document.getElementById("Excavator_bucket_cylinder");
+
+const show_Excavator_bucket_cylinder = () => {
+    Excavator_bucket_cylinder.innerHTML = Excavator_bucket_cylinder_datas.map((Excavator_bucket_cylinder)=>{
+      const{name, id, image, make, size,} = Excavator_bucket_cylinder;
+      return `
+        <div id=product-id-${id} class="product-card">
+            <img src="${image}" alt="${name}">
+            <h3>${name}</h3>
+            <p class="price">Make:${make}</p>
+            <p class="price">Size:${size}</p>
+            <button onclick="add_to_cart(${id})">Buy Now</button>
+        </div>
+      `;
+    }).join("");
+};
+
+
+show_Excavator_bucket_cylinder();
 
 /*     =====================          Pump_Seals           =============================*/
 
@@ -162,13 +191,14 @@ const Pump_Seals = document.getElementById("Pump_Seals");
 
 const show_Pump_Seals = () => {
     Pump_Seals.innerHTML = Pump_Seals_datas.map((Pump_Seals)=>{
+      const{name, id, image, make, size,} = Pump_Seals;
       return `
-        <div class="product-card">
-            <img src="${Pump_Seals.image}" alt="${Pump_Seals.name}">
-            <h3>Pump Seals</h3>
-            <p class="price">Make:${Pump_Seals.make}</p>
-            <p class="price">Size:${Pump_Seals.size}</p>
-            <button onclick="add_to_cart()">Buy Now</button>
+        <div id=product-id-${id} class="product-card">
+            <img src="${image}" alt="${name}">
+            <h3>${name}</h3>
+            <p class="price">Make:${make}</p>
+            <p class="price">Size:${size}</p>
+            <button onclick="add_to_cart(${id})">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -183,13 +213,14 @@ const Filters = document.getElementById("Filters");
 
 const show_Filters = () => {
     Filters.innerHTML = Filters_datas.map((Filters)=>{
+       const{name, id, image, make, size,} =Filters;
       return `
-        <div class="product-card">
-            <img src="${Filters.image}" alt="${Filters.name}">
-            <h3>Filters</h3>
-            <p class="price">Make:${Filters.make}</p>
-            <p class="price">Size:${Filters.size}</p>
-            <button onclick="add_to_cart()">Buy Now</button>
+        <div id=product-id-${id} class="product-card">
+            <img src="${image}" alt="${name}">
+            <h3>${name}</h3>
+            <p class="price">Make:${make}</p>
+            <p class="price">Size:${size}</p>
+            <button onclick="add_to_cart(${id})">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -197,19 +228,20 @@ const show_Filters = () => {
 
 
 show_Filters();
-/*     =====================          Filters           =============================*/
+/*     =====================          bushing           =============================*/
 
 const Bushing = document.getElementById("Bushing");
 
 const show_Bushing = () => {
     Bushing.innerHTML = Bushing_datas.map((Bushing)=>{
+      const{name, id, image, make, size,} = Bushing;
       return `
-        <div class="product-card">
-            <img src="${Bushing.image}" alt="${Bushing.name}">
-            <h3>Bushing</h3>
-            <p class="price">Make:${Bushing.make}</p>
-            <p class="price">Size:${Bushing.size}</p>
-            <button onclick="add_to_cart()">Buy Now</button>
+        <div id=product-id-${id} class="product-card">
+            <img src="${image}" alt="${name}">
+            <h3>${name}</h3>
+            <p class="price">Make:${make}</p>
+            <p class="price">Size:${size}</p>
+            <button onclick="add_to_cart(${id})">Buy Now</button>
         </div>
       `;
     }).join("");
@@ -220,8 +252,59 @@ show_Bushing();
 
 
 
+/*     =====================          seal kits           =============================*/
+
+const seal_kit = document.getElementById("seal_kit");
+
+const show_seal_kit = () => {
+    seal_kit.innerHTML = Seal_kit_datas.map((seal_kit)=>{
+      const{name, id, image, make, size,} = seal_kit;
+      return `
+        <div id=product-id-${id} class="product-card">
+            <img src="${image}" alt="${name}">
+            <h3>${name}</h3>
+            <p class="price">Make:${make}</p>
+            <p class="price">Size:${size}</p>
+            <button onclick="add_to_cart(${id})">Buy Now</button>
+        </div>
+      `;
+    }).join("");
+};
+
+
+show_seal_kit();
+
+/*     =====================          OTHER ITEMS           =============================*/
+
+const others = document.getElementById("others");
+
+const show_others = () => {
+    others.innerHTML = Other_items_datas.map((others)=>{
+      const{name, id, image, make, size,} = others;
+      return `
+        <div id=product-id-${id} class="product-card">
+            <img src="${image}" alt="${name}">
+            <h3>${name}</h3>
+            <p class="price">Make:${make}</p>
+            <p class="price">Size:${size}</p>
+            <button onclick="add_to_cart(${id})">Buy Now</button>
+        </div>
+      `;
+    }).join("");
+};
+
+
+show_others();
+
+
+
 /* ==================================================*/
 
-const add_to_cart = () =>{
-  alert("You will be redirected to whatsapp for further checkout.");
+const add_to_cart = (id) =>{
+  const selected_item = id;
+  // the next line of code will send the selected product's name to the sellers's whatsapp
+  const product_name = document.querySelector(`#product-id-${id} h3`).innerText;
+  const whatsapp_number = "+2347058091721"; // replace with actual number
+  const message = `Hi, I'm interested in buying ${product_name}.`;
+  window.open(`https://wa.me/${whatsapp_number}?text=${encodeURIComponent(message)}`);
 }
