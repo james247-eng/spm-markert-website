@@ -300,11 +300,18 @@ show_others();
 
 /* ==================================================*/
 
-const add_to_cart = (id) =>{
-  const selected_item = id;
-  // the next line of code will send the selected product's name to the sellers's whatsapp
-  const product_name = document.querySelector(`#product-id-${id} h3`).innerText;
-  const whatsapp_number = "+2347058091721"; // replace with actual number
-  const message = `Hi, I'm interested in buying ${product_name}.`;
-  window.open(`https://wa.me/${whatsapp_number}?text=${encodeURIComponent(message)}`);
-}
+// Function to handle the "Buy Now" button click and open WhatsApp
+        const add_to_cart = (id) => {
+            const product_name = document.querySelector(`#product-id-${id} h3`).innerText;
+            const whatsapp_number = "2347058091721"; // The phone number for the WhatsApp chat.
+            const message = `Hi, I'm interested in buying ${product_name}.`;
+            window.open(`https://wa.me/${whatsapp_number}?text=${encodeURIComponent(message)}`, '_blank');
+        }
+// const add_to_cart = (id) =>{
+//   const selected_item = id;
+//   // the next line of code will send the selected product's name to the sellers's whatsapp
+//   const product_name = document.querySelector(`#product-id-${id} h3`).innerText;
+//   const whatsapp_number = "2347058091721"; // replace with actual number
+//   const message = `Hi, I'm interested in buying ${product_name}.`;
+//   window.open(`https://wa.me/${whatsapp_number}?text=${encodeURIComponent(message)}`);
+//}
