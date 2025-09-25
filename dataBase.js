@@ -181,6 +181,15 @@ const under_carriage_datas = [
     size: "5.6",
     image: "images/Under_carriage_5.jpg"
   }
+  ,
+  {
+    id: "under_carriage_6",
+    name: "Track link",
+    color: "red",
+    make: "machotecho",
+    size: "5.6",
+    image: "images/Track_link.jpg"
+  }
 ]
 
 
@@ -467,7 +476,7 @@ const Filters_datas = [
 const Bushing_datas = [
   {
     id: "Bushing_1",
-    name: "Bushing",
+    name: "Track Bushing",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -476,7 +485,7 @@ const Bushing_datas = [
   ,
   {
     id: "Bushing_2",
-    name: "Bushing",
+    name: "Track Bushing",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -485,7 +494,7 @@ const Bushing_datas = [
   ,
   {
     id: "Bushing_3",
-    name: "Bushing",
+    name: "Track Bushing",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -502,6 +511,15 @@ const Bushing_datas = [
 /* ==== seal kits DATAS ============*/
 
 const Seal_kit_datas = [
+  {
+    id: "D_ring_kit_1",
+    name: "D ring kit",
+    color: "red",
+    make: "machotecho",
+    size: "5.6",
+    image: "images/D_ring_kit.jpg"
+  }
+  ,
   {
     id: "seal_kit_1",
     name: "seal kit",
@@ -562,7 +580,7 @@ const Seal_kit_datas = [
 
 const Other_items_datas = [
   {
-    id: "_ring_1",
+    id: "Other_items_1",
     name: "Other items",
     color: "red",
     make: "machotecho",
@@ -571,7 +589,16 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "colaps_ring_2",
+    id: "Other_items_1",
+    name: "Ignition switch key",
+    color: "red",
+    make: "machotecho",
+    size: "5.6",
+    image: "images/Ignition_switch_key.jpg"
+  }
+  ,
+  {
+    id: "Other_items_2",
     name: "Packing Seal",
     color: "red",
     make: "machotecho",
@@ -580,7 +607,7 @@ const Other_items_datas = [
    }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_3",
     name: "Other items",
     color: "red",
     make: "machotecho",
@@ -589,7 +616,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_4",
     name: "Other items",
     color: "red",
     make: "machotecho",
@@ -598,7 +625,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_5",
     name: "Fuel priming pump",
     color: "red",
     make: "machotecho",
@@ -607,7 +634,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_6",
     name: "Break cable",
     color: "red",
     make: "machotecho",
@@ -616,7 +643,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_7",
     name: "Track bot ant nut",
     color: "red",
     make: "machotecho",
@@ -625,7 +652,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_8",
     name: "Diamond seal",
     color: "red",
     make: "machotecho",
@@ -634,7 +661,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_9",
     name: "320 arm seal kit",
     color: "red",
     make: "machotecho",
@@ -643,7 +670,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_10",
     name: "Other items",
     color: "red",
     make: "machotecho",
@@ -652,7 +679,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_11",
     name: "Steering clutch disk",
     color: "red",
     make: "machotecho",
@@ -661,7 +688,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_12",
     name: "Front crankshaft seal",
     color: "red",
     make: "machotecho",
@@ -670,7 +697,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_13",
     name: "Back crankshaft seal",
     color: "red",
     make: "machotecho",
@@ -679,7 +706,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_14",
     name: "Master pin for 330",
     color: "red",
     make: "machotecho",
@@ -688,7 +715,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_15",
     name: "Filter",
     color: "red",
     make: "machotecho",
@@ -697,7 +724,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_16",
     name: "Oring seals",
     color: "red",
     make: "machotecho",
@@ -706,7 +733,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_17",
     name: "Other items",
     color: "red",
     make: "machotecho",
@@ -715,7 +742,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_18",
     name: "Bucket pin and bushing",
     color: "red",
     make: "machotecho",
@@ -724,7 +751,7 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_19",
     name: "Other items",
     color: "red",
     make: "machotecho",
@@ -733,12 +760,21 @@ const Other_items_datas = [
   }
   ,
   {
-    id: "ring_3",
+    id: "Other_items_20",
     name: "Liver seal kit",
     color: "red",
     make: "machotecho",
     size: "5.6",
    image: "images/Other_items_20.jpg"
+  }
+  ,
+  {
+    id: "Other_items_21",
+    name: "Shank",
+    color: "red",
+    make: "machotecho",
+    size: "5.6",
+   image: "images/shank.jpg"
   }
   
 ]

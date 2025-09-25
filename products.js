@@ -320,7 +320,7 @@ show_others();
 
 window.add_to_cart = (id) => {
     const product_name = document.querySelector(`#product-id-${id} h3`).innerText;
-    const whatsapp_number = "2347058091721";
+    const whatsapp_number = "2349035029178";
     const message = `Hi, I'm interested in buying ${product_name}.`;
     window.open(`https://wa.me/${whatsapp_number}?text=${encodeURIComponent(message)}`, '_blank');
 };

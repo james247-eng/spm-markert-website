@@ -37,9 +37,6 @@
 const link_container = document.getElementById("link-container");
 const show_menu_btn = document.getElementById("show-menu-btn");
 const close_menu_btn = document.getElementById("close-menu-btn");
-console.log(link_container);
-console.log(show_menu_btn);
-console.log(close_menu_btn);
 
 
 show_menu_btn.addEventListener(("click"),()=>{

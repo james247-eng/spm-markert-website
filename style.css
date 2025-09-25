@@ -533,6 +533,12 @@ header{
 
 }
 
+.float_icon{
+   padding: 7px;
+    font-size: 15px;
+    border-radius: 9px;
+}
+
 }
 
 
@@ -544,11 +550,24 @@ header{
     padding: 10px;
     border-radius: 50%;
     color: white;
-    position: fixed;
     bottom: 5%;
     right: 5%;
     cursor: pointer;
     font-size: 30px;
+}
+.float_icon{
+    background-color: var(--primary-color);
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 9px;
 }
 
 footer{
@@ -556,4 +575,14 @@ footer{
     color: white;
     padding: 10px;
     font-size: 14px;
+}
+
+@media(max-width:640px){
+    .float_icon{
+   padding: 4px;
+    font-size: 15px;
+    border-radius: 9px;
+    right: 0%;
+    bottom: 0%;
+}
 }
