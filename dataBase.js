@@ -1,7 +1,7 @@
 const Hydraulic_major_seals_datas = [
   {
-    id: "images/Hydraulic_major_seals_1",
-    name: "Gold Ring",
+    id: "Hydraulic_major_seals_1",
+    name: "Hydraulic major seal",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -9,8 +9,8 @@ const Hydraulic_major_seals_datas = [
   }
   ,
   {
-    id: "ring_2",
-    name: "Gold Ring",
+    id: "Hydraulic_2",
+    name: "Hydraulic major seal",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -18,8 +18,8 @@ const Hydraulic_major_seals_datas = [
   }
   ,
   {
-    id: "ring_3",
-    name: "Gold Ring",
+    id: "Hydraulic_3",
+    name: "Hydraulic major seal",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -27,8 +27,8 @@ const Hydraulic_major_seals_datas = [
   }
   ,
   {
-    id: "ring_4",
-    name: "Gold Ring",
+    id: "Hydraulic_4",
+    name: "Hydraulic major seal",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -36,8 +36,8 @@ const Hydraulic_major_seals_datas = [
   }
   ,
   {
-    id: "ring_5",
-    name: "Gold Ring",
+    id: "Hydraulic_5",
+    name: "Hydraulic major seal",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -45,8 +45,8 @@ const Hydraulic_major_seals_datas = [
   }
   ,
   {
-    id: "ring_5",
-    name: "Gold Ring",
+    id: "Hydraulic_6",
+    name: "Hydraulic major seal",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -54,8 +54,8 @@ const Hydraulic_major_seals_datas = [
   }
   ,
   {
-    id: "ring_5",
-    name: "Gold Ring",
+    id: "Hydraulic_7",
+    name: "Hydraulic major seal",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -63,8 +63,8 @@ const Hydraulic_major_seals_datas = [
   }
   ,
   {
-    id: "ring_5",
-    name: "Gold Ring",
+    id: "Hydraulic_8",
+    name: "Hydraulic major seal",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -76,8 +76,8 @@ const Hydraulic_major_seals_datas = [
 
 const High_Quality_Batteries_datas = [
   {
-    id: "colaps_ring_1",
-    name: "Gold Ring",
+    id: "High_Quality_1",
+    name: "High Quality Battery",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -85,16 +85,16 @@ const High_Quality_Batteries_datas = [
   }
   ,
   {
-    id: "colaps_ring_2",
-    name: "Gold Ring",
+    id: "High_Quality_2",
+    name: "High Quality Battery",
     color: "red",
     make: "machotecho",
     size: "5.6",
     image: "images/High_quality_batteries_2.jpg"  }
   ,
   {
-    id: "ring_3",
-    name: "Gold Ring",
+    id: "High_Quality_3",
+    name: "High Quality Battery",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -106,8 +106,8 @@ const High_Quality_Batteries_datas = [
 
 const Quality_Grease_datas = [
   {
-    id: "colaps_ring_1",
-    name: "Gold Ring",
+    id: "Grease_1",
+    name: "Grease",
     color: "red",
     make: "machotecho",
     size: "5.6",
@@ -115,16 +115,16 @@ const Quality_Grease_datas = [
   }
   ,
   {
-    id: "colaps_ring_2",
-    name: "Gold Ring",
+    id: "Grease2",
+    name: "Grease",
     color: "red",
     make: "machotecho",
     size: "5.6",
     image: "images/Grease_2.jpg"  }
   ,
   {
-    id: "ring_3",
-    name: "Gold Ring",
+    id: "Grease_3",
+    name: "Grease",
     color: "red",
     make: "machotecho",
     size: "5.6",
