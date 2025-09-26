@@ -6,7 +6,7 @@ const show_Hydraulic_major_seals = () => {
 return `
   <div id=product-id-${id} class="product-card">
       <img src="${image}" alt="${name}">
-      <h3>${name}</h3>
+      <h5>${name}</h5>
       <p class="price">Make:${make}</p>
       <p class="price">Size:${size}</p>
       <button onclick="add_to_cart('${id}')">Buy Now</button>
@@ -31,7 +31,7 @@ const show_High_Quality_Batteries = () => {
 return `
   <div id=product-id-${id} class="product-card">
       <img src="${image}" alt="${name}">
-      <h3>${name}</h3>
+      <h5>${name}</h5>
       <p class="price">Make:${make}</p>
       <p class="price">Size:${size}</p>
       <button onclick="add_to_cart('${id}')">Buy Now</button>
@@ -56,7 +56,7 @@ const show_Quality_Grease = () => {
   return `
   <div id=product-id-${id} class="product-card">
       <img src="${image}" alt="${name}">
-      <h3>${name}</h3>
+      <h5>${name}</h5>
       <p class="price">Make:${make}</p>
       <p class="price">Size:${size}</p>
       <button onclick="add_to_cart('${id}')">Buy Now</button>
@@ -78,7 +78,7 @@ const show_under_carriage = () => {
 return `
   <div id=product-id-${id} class="product-card">
       <img src="${image}" alt="${name}">
-      <h3>${name}</h3>
+      <h5>${name}</h5>
       <p class="price">Make:${make}</p>
       <p class="price">Size:${size}</p>
       <button onclick="add_to_cart('${id}')">Buy Now</button>
@@ -104,7 +104,7 @@ const show_track_pin = () => {
     return `
   <div id=product-id-${id} class="product-card">
       <img src="${image}" alt="${name}">
-      <h3>${name}</h3>
+      <h5>${name}</h5>
       <p class="price">Make:${make}</p>
       <p class="price">Size:${size}</p>
       <button onclick="add_to_cart('${id}')">Buy Now</button>
@@ -128,7 +128,7 @@ const show_O_ring_boxes = () => {
 return `
   <div id=product-id-${id} class="product-card">
       <img src="${image}" alt="${name}">
-      <h3>${name}</h3>
+      <h5>${name}</h5>
       <p class="price">Make:${make}</p>
       <p class="price">Size:${size}</p>
       <button onclick="add_to_cart('${id}')">Buy Now</button>
@@ -151,7 +151,7 @@ const show_Excavator_bucket_pin = () => {
 return `
   <div id=product-id-${id} class="product-card">
       <img src="${image}" alt="${name}">
-      <h3>${name}</h3>
+      <h5>${name}</h5>
       <p class="price">Make:${make}</p>
       <p class="price">Size:${size}</p>
       <button onclick="add_to_cart('${id}')">Buy Now</button>
@@ -173,7 +173,7 @@ const show_Excavator_bucket_cylinder = () => {
 return `
   <div id=product-id-${id} class="product-card">
       <img src="${image}" alt="${name}">
-      <h3>${name}</h3>
+      <h5>${name}</h5>
       <p class="price">Make:${make}</p>
       <p class="price">Size:${size}</p>
       <button onclick="add_to_cart('${id}')">Buy Now</button>
@@ -195,7 +195,7 @@ const show_Pump_Seals = () => {
  return `
   <div id=product-id-${id} class="product-card">
       <img src="${image}" alt="${name}">
-      <h3>${name}</h3>
+      <h5>${name}</h5>
       <p class="price">Make:${make}</p>
       <p class="price">Size:${size}</p>
       <button onclick="add_to_cart('${id}')">Buy Now</button>
@@ -217,7 +217,7 @@ const show_Filters = () => {
 return `
   <div id=product-id-${id} class="product-card">
       <img src="${image}" alt="${name}">
-      <h3>${name}</h3>
+      <h5>${name}</h5>
       <p class="price">Make:${make}</p>
       <p class="price">Size:${size}</p>
       <button onclick="add_to_cart('${id}')">Buy Now</button>
@@ -238,7 +238,7 @@ const show_Bushing = () => {
 return `
   <div id=product-id-${id} class="product-card">
       <img src="${image}" alt="${name}">
-      <h3>${name}</h3>
+      <h5>${name}</h5>
       <p class="price">Make:${make}</p>
       <p class="price">Size:${size}</p>
       <button onclick="add_to_cart('${id}')">Buy Now</button>
@@ -262,7 +262,7 @@ const show_seal_kit = () => {
 return `
   <div id=product-id-${id} class="product-card">
       <img src="${image}" alt="${name}">
-      <h3>${name}</h3>
+      <h5>${name}</h5>
       <p class="price">Make:${make}</p>
       <p class="price">Size:${size}</p>
       <button onclick="add_to_cart('${id}')">Buy Now</button>
@@ -284,7 +284,7 @@ const show_others = () => {
   return `
   <div id=product-id-${id} class="product-card">
       <img src="${image}" alt="${name}">
-      <h3>${name}</h3>
+      <h5>${name}</h5>
       <p class="price">Make:${make}</p>
       <p class="price">Size:${size}</p>
       <button onclick="add_to_cart('${id}')">Buy Now</button>
@@ -302,7 +302,7 @@ show_others();
 
 // // Function to handle the "Buy Now" button click and open WhatsApp
 //         const add_to_cart = (id) => {
-//             const product_name = document.querySelector(`#product-id-${id} h3`).innerText;
+//             const product_name = document.querySelector(`#product-id-${id} h5`).innerText;
 //             const whatsapp_number = "2347058091721"; // The phone number for the WhatsApp chat.
 //             const message = `Hi, I'm interested in buying ${product_name}.`;
 //             window.open(`https://wa.me/${whatsapp_number}?text=${encodeURIComponent(message)}`, '_blank');
@@ -310,7 +310,7 @@ show_others();
 // const add_to_cart = (id) =>{
 //   const selected_item = id;
 //   // the next line of code will send the selected product's name to the sellers's whatsapp
-//   const product_name = document.querySelector(`#product-id-${id} h3`).innerText;
+//   const product_name = document.querySelector(`#product-id-${id} h5`).innerText;
 //   const whatsapp_number = "2347058091721"; // replace with actual number
 //   const message = `Hi, I'm interested in buying ${product_name}.`;
 //   window.open(`https://wa.me/${whatsapp_number}?text=${encodeURIComponent(message)}`);
@@ -319,8 +319,8 @@ show_others();
 
 
 window.add_to_cart = (id) => {
-    const product_name = document.querySelector(`#product-id-${id} h3`).innerText;
-    const whatsapp_number = "2349035029178";
+    const product_name = document.querySelector(`#product-id-${id} h5`).innerText;
+    const whatsapp_number = "2349017142428";
     const message = `Hi, I'm interested in buying ${product_name}.`;
     window.open(`https://wa.me/${whatsapp_number}?text=${encodeURIComponent(message)}`, '_blank');
 };
